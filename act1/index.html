@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intercambio de variables</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1>Intercambio de variables</h1>
+
+    <form>
+        <label for="variableA">Ingrese la variable A:</label>
+        <input type="text" id="variableA" name="variableA" placeholder="Variable" />
+        <br>
+        <label for="variableB">Ingrese la variable B:</label>
+        <input type="text" id="variableB" name="variableB" placeholder="Variable">
+        <br>
+        <!-- se define un botón que al presionarlo llama a la función que intercambia las variables-->
+        <button type="button" onclick="intercambiarVariables()">Intercambiar</button>
+    </form>
+
+    <p>Resultado:</p>
+    <p id="resultado"></p>
+</body>
+</html>
