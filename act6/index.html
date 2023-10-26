@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora intereses</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form>
+        <label for="pesos">Ingrese la cantidad de pesos:</label>
+        <input type="number" name="pesos" id="pesos">
+        <br>
+        <label for="interes">Ingrese el interés mensual:</label>
+        <input type="number" name="interes" id="interes">
+        <br>
+        <button type="button" onclick="calcularInteres()">Calcular interés</button>
+    </form>
+
+    <p>Monto a fin de mes:</p>
+    <p id="calcularInteres"></p>
+</body>
+</html>
