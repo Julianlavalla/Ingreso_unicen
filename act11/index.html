@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 11</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form>
+        <label for="horas">Ingrese las horas:</label>
+        <input type="number" name="horas" id="horas" min="0">
+        <br>
+        <label for="minutos">Ingrese los minutos:</label>
+        <input type="number" name="minutos" id="minutos" min="0" max="59">
+        <br>
+        <label for="segundos">Ingrese los segundos:</label>
+        <input type="number" name="segundos" id="segundos" min="0" max="59">
+        <br>
+        <button type="button" onclick="horasADecimal()">Convertir</button>
+
+        <p id="resultado"></p>
+    </form>
+</body>
+</html>
